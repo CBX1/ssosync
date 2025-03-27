@@ -541,7 +541,6 @@ Resources:
       Architectures:
         - arm64
       Timeout: !Ref TimeOut
-      ReservedConcurrentExecutions: 1
       Environment:
         Variables:
           LOG_LEVEL: !Ref LogLevel
